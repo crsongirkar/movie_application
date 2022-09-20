@@ -1,0 +1,38 @@
+<div class="filters">
+    <mat-form-field>
+        <mat-label>Sort</mat-label>
+        <mat-select panelClass="sort-select" [(ngModel)]="sort">
+            <mat-option value="name">Name</mat-option>
+            <mat-option value="-released">Released</mat-option>
+            <mat-option value="-rating">Rating</mat-option>
+            <mat-option value="-bookmark">Bookmark</mat-option>
+
+        </mat-select>
+    </mat-form-field>
+
+
+</div>
+
+
+<div class="movies">
+    <div class="movie">
+        <div class="movie-thumb-container">
+            <img
+            alt =" non"src= "https://nosomosnonos.com/wp-content/uploads/2020/01/Imagen1.jpg"
+            class="movie-thumbnail"
+            />
+
+      </div>
+
+        <div class="movie-description">
+          <p class="movie-name">Name</p>
+          <div class="movie-platforms">
+            <img
+            class="movie-platform"
+            alt="movie img"
+            src="https://cdn.freebiesupply.com/logos/thumbs/2x/marvel-logo.png"
+            />
+           </div>
+        </div>
+    </div>
+</div>
